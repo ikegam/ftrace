@@ -1,0 +1,19 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 01_fix_configure_ac.dpatch by  <ikegam@james.mixallow.net>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: configure
+
+@DPATCH@
+
+--- ftrace-0.93/configure.ac.orig	2009-03-16 05:24:08.000000000 +0000
++++ ftrace-0.93/configure.ac	2009-03-16 05:24:28.000000000 +0000
+@@ -37,7 +37,7 @@
+ AC_CHECK_HEADERS([fcntl.h limits.h stdlib.h string.h sys/time.h syslog.h unistd.h])
+ AC_CHECK_HEADERS(glib.h,, AC_MSG_ERROR([Please install libglib development package]))
+ AC_CHECK_HEADERS(libelf.h,, AC_MSG_ERROR([Please install libelf development package]))
+-AC_CHECK_HEADERS([libdwarf/libdwarf.h libdwarf/dwarf.h],, AC_MSG_ERROR([Please install libdwarf development package]))
++AC_CHECK_HEADERS([libdwarf.h dwarf.h],, AC_MSG_ERROR([Please install libdwarf development package]))
+ 
+ for f in /usr/local/lib/libdwarf.a /usr/lib/libdwarf.a; do
+     DWARF_LIBS=$f;
