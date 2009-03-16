@@ -1,5 +1,5 @@
-ftrace (0.93-1) unstable; urgency=low
+ftrace (0.93-1) hardy; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
- -- IKEGAMI Hiroyuki <ikegam@mixallow.net>  Mon, 16 Mar 2009 05:05:04 +0000
+ -- Hiroyuki Ikegami <ikegam@mixallow.net>  Mon, 16 Mar 2009 05:05:04 +0000

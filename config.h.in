@@ -6,6 +6,9 @@
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #undef HAVE_DLFCN_H
 
+/* Define to 1 if you have the <dwarf.h> header file. */
+#undef HAVE_DWARF_H
+
 /* Define to 1 if you have the <fcntl.h> header file. */
 #undef HAVE_FCNTL_H
 
@@ -24,11 +27,8 @@
 /* Define to 1 if you have the `dl' library (-ldl). */
 #undef HAVE_LIBDL
 
-/* Define to 1 if you have the <libdwarf/dwarf.h> header file. */
-#undef HAVE_LIBDWARF_DWARF_H
-
-/* Define to 1 if you have the <libdwarf/libdwarf.h> header file. */
-#undef HAVE_LIBDWARF_LIBDWARF_H
+/* Define to 1 if you have the <libdwarf.h> header file. */
+#undef HAVE_LIBDWARF_H
 
 /* Define to 1 if you have the `elf' library (-lelf). */
 #undef HAVE_LIBELF

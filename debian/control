@@ -1,10 +1,10 @@
 Source: ftrace
-Section: unknown
+Section: devel
 Priority: extra
-Maintainer: IKEGAMI Hiroyuki <ikegam@mixallow.net>
-Build-Depends: cdbs, debhelper (>= 7), autotools-dev
+Maintainer: Hiroyuki Ikegami <ikegam@mixallow.net>
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, libelfg0-dev, libdwarf-dev
 Standards-Version: 3.8.0
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://lab.klab.org/wiki/Software#ftrace
 
 Package: ftrace
 Architecture: any

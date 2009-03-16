@@ -11,9 +11,9 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <glib.h>
-#include <libelf.h>
+#include <libdwarf/libelf.h>
 #include <libdwarf/libdwarf.h>
-#include <libdwarf/dwarf.h>
+#include <dwarf.h>
 #include "prototype.h"
 
 int prototype_init(GHashTable *functions, const char *filename)

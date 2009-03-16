@@ -17,3 +17,19 @@
  
  for f in /usr/local/lib/libdwarf.a /usr/lib/libdwarf.a; do
      DWARF_LIBS=$f;
+
+
+
+--- ftrace-0.93/prototype.c.orig	2009-03-16 05:51:13.000000000 +0000
++++ ftrace-0.93/prototype.c	2009-03-16 05:35:03.000000000 +0000
+@@ -11,8 +11,8 @@
+ #include <sys/types.h>
+ #include <sys/stat.h>
+ #include <glib.h>
+-#include <libdwarf/libelf.h>
+-#include <libdwarf/libdwarf.h>
++#include <libelf.h>
++#include <libdwarf.h>
+ #include <dwarf.h>
+ #include "prototype.h"
+ 
